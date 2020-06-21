@@ -1,0 +1,32 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avacaerro/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avacaerro/todolist_project/issues"
+  },
+  "homepage": "https://github.com/Avacaerro/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-syntax-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "eslint": "^7.3.0"
+  }
+}
